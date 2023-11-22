@@ -1,0 +1,42 @@
+body{
+  margin: 0;
+}
+
+.container{
+ 
+ display: flex;
+ margin-left: 400px;
+}
+
+.side{
+  height: auto;
+  background-color: orange;
+  display: flex;
+  flex-direction: column;
+  padding: 15px 3px;
+}
+
+.button{
+  background-color: purple;
+  height: auto;
+  width: 170px;
+  color: #ffffff;
+ text-align: left;
+ margin: 5px 15px;
+ font-weight: bold;
+ border: 1px solid black;
+ text-decoration: none;
+ padding: 15px 5px;
+
+}
+
+.main{
+  background-color: blue;
+  width: 800px;
+  color: #ffffff;
+ 
+}
+
+.right-main{
+  padding: 65px 10px;
+}
